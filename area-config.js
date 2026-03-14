@@ -1,8 +1,8 @@
 window.AREA_CONFIG = {
-  serviceAreas: ["orlando", "North orlando", "South orlando", "East orlando", "West orlando", "orlando Metro", "orlando Downtown", "orlando Heights"],
+  serviceAreas: ["Titusville", "Mims", "Port St. John", "Cocoa", "Rockledge", "Merritt Island", "Cocoa Beach", "Cape Canaveral", "Viera"],
   blogLocations: [
-    '{{BLOG_LOCATION_1}}',
-    '{{BLOG_LOCATION_2}}',
-    '{{BLOG_LOCATION_3}}'
+    'Titusville',
+    'Cocoa',
+    'Merritt Island'
   ]
 };

@@ -150,14 +150,20 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: linear-gradient(180deg, #f0674f 0%, var(--accent) 100%);
-  box-shadow: 0 10px 25px rgba(239, 67, 42, 0.35);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 78%, white 22%) 0%, var(--accent) 100%);
+  box-shadow: 0 10px 25px color-mix(in srgb, var(--accent) 34%, transparent);
 }
 
 .btn-outline {
-  color: var(--gold-soft);
+  color: var(--secondary-color);
   background: rgba(4, 12, 38, 0.65);
-  border: 1px solid rgba(248, 232, 165, 0.5);
+  border: 1px solid color-mix(in srgb, var(--secondary-color) 58%, transparent);
+}
+
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  background: color-mix(in srgb, var(--accent) 22%, rgba(4, 12, 38, 0.65));
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--accent) 26%, transparent);
 }
 
 .hero {

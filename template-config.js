@@ -152,7 +152,9 @@ window.TEMPLATE_CONFIG = {
     '+18588889351': siteConfig.phoneHref,
 
     'Rancho Bernardo, CA': `${siteConfig.location.primaryCity}, ${siteConfig.location.primaryStateCode}`,
+    'RANCHO BERNARDO, CA': `${siteConfig.location.primaryCity.toUpperCase()}, ${siteConfig.location.primaryStateCode}`,
     'Rancho Bernardo': siteConfig.location.primaryCity,
+    'RANCHO BERNARDO': siteConfig.location.primaryCity.toUpperCase(),
     'rancho bernardo': siteConfig.location.primaryCityLower,
     'GARAGE-BASED IN': 'MOBILE DETAILING IN',
     'garage-based detailing service': 'mobile detailing service',

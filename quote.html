@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get a Quote | Masterclass Detailing</title>
+    <meta
+      name="description"
+      content="Request a custom detailing quote from Masterclass Detailing in {{PRIMARY_CITY}}. Submit your vehicle details and preferred services for fast scheduling."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://masterclassdetailing.com/quote.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/XP_Logo-removebg-preview.png" alt="Masterclass Detailing logo" />
+        </a>
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="services/index.html">Services</a>
+          <a href="service-areas/index.html">Service Areas</a>
+          <a href="blogs/index.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="header-phone" href="tel:+18588889351">(858) 888-9351</a>
+        <a class="btn btn-primary" href="quote.html" aria-current="page">Get A Quote</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="inner-page-hero">
+        <div class="inner-page-hero-overlay"></div>
+        <div class="container inner-page-hero-content">
+          <p class="eyebrow">Get A Detailing Quote</p>
+          <h1>Tell Us About Your Vehicle</h1>
+          <p>
+            This quote page is dedicated to booking and pricing requests so your inquiry can be
+            reviewed quickly by our team.
+          </p>
+        </div>
+      </section>
+
+      <section class="section quote">
+        <div class="container quote-wrap quote-advanced">
+          <div class="quote-intro">
+            <p class="section-kicker">Fast Response</p>
+            <h2>Built For Accurate Pricing</h2>
+            <ul class="quote-trust-list" aria-label="Quote request benefits">
+              <li>Vehicle condition and service details in one form</li>
+              <li>Response target under 24 hours</li>
+              <li>Mobile appointments at home or office</li>
+            </ul>
+            <div class="quote-direct-actions">
+              <a class="btn btn-outline" href="tel:+18588889351">Call (858) 888-9351</a>
+              <a class="btn btn-outline" href="contact.html">Need General Contact?</a>
+            </div>
+          </div>
+
+          <div class="quote-panel">
+            <form class="quote-form" id="quote-form" novalidate>
+              <div class="form-grid two-col">
+                <label>Full Name *<input type="text" name="name" required /></label>
+                <label>Email Address *<input type="email" name="email" required /></label>
+                <label>Phone Number *<input type="tel" name="phone" required /></label>
+                <label>
+                  Vehicle Type *
+                  <select name="vehicle" required>
+                    <option value="">Select</option>
+                    <option>Coupe / Sedan</option>
+                    <option>Mid-Size SUV</option>
+                    <option>Truck / Full-Size SUV</option>
+                    <option>Van</option>
+                  </select>
+                </label>
+                <label class="col-span-2">
+                  Service Needed *
+                  <select name="service" required>
+                    <option value="">Select service</option>
+                    <option>Full Detail</option>
+                    <option>Wash & Wax</option>
+                    <option>Paint Correction</option>
+                    <option>Ceramic Coating</option>
+                    <option>Paint Protection Film (PPF)</option>
+                    <option>Premium Interior Detail</option>
+                  </select>
+                </label>
+                <label class="col-span-2">
+                  Notes
+                  <textarea name="notes" rows="4" placeholder="Share the vehicle condition, timeline, and location."></textarea>
+                </label>
+              </div>
+
+              <div class="quote-actions">
+                <button type="submit" class="btn btn-primary">Request Quote</button>
+              </div>
+              <p class="form-status" id="quote-status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <aside class="quote-summary">
+            <h3>What Happens Next</h3>
+            <ul>
+              <li>We review your vehicle and service requirements.</li>
+              <li>You receive package recommendations and pricing options.</li>
+              <li>We confirm schedule and service location.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Site footer">
+      <div class="container footer-grid">
+        <section class="footer-brand">
+          <img src="assets/XP_Logo-removebg-preview.png" alt="Masterclass Detailing" />
+          <p>
+            Masterclass Detailing delivers premium mobile auto detailing in {{PRIMARY_CITY}} with trusted,
+            paint-safe methods and long-lasting protection.
+          </p>
+          <ul class="footer-social" aria-label="Social media links">
+            <li><a href="https://www.instagram.com/masterclassdetailing" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61585140581886" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@masterclassdetailing" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://share.google/mzxKuFZ977zDnqj53" target="_blank" rel="noopener noreferrer">Google Business</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Detailing Services</h2>
+          <ul>
+            <li><a href="services/ceramic-coating.html">Ceramic Coating</a></li>
+            <li><a href="services/paint-correction.html">Paint Correction</a></li>
+            <li><a href="services/ppf.html">Paint Protection Film (PPF)</a></li>
+            <li><a href="services/wash-and-wax.html">Wash &amp; Wax</a></li>
+            <li><a href="services/premium-interior-detail.html">Premium Interior Detail</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Service Areas</h2>
+          <ul>
+            <li><a href="service-areas/rancho-bernardo.html">{{PRIMARY_CITY}}</a></li>
+            <li><a href="service-areas/cape-coral.html">Poway</a></li>
+            <li><a href="service-areas/estero.html">4S Ranch</a></li>
+            <li><a href="service-areas/lehigh-acres.html">Rancho Peñasquitos</a></li>
+            <li><a href="service-areas/bonita-springs.html">Carmel Mountain Ranch</a></li>
+            <li><a href="service-areas/north-fort-myers.html">Scripps Ranch</a></li>
+            <li>{{PRIMARY_CITY}}, {{PRIMARY_STATE_CODE}}</li>
+            <li>{{PRIMARY_CITY}} and {{SERVICE_REGION}}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Contact &amp; Trust</h2>
+          <ul>
+            <li><a href="tel:+18588889351">(858) 888-9351</a></li>
+            <li><a href="mailto:hello@masterclassdetailing.com">hello@masterclassdetailing.com</a></li>
+            <li>Open 7 Days a Week: 8:00 AM – 7:00 PM</li>
+            <li>Fully Insured Mobile Detailing Team</li>
+            <li>5-Star Rated Local Service</li>
+            <li><a href="index.html#reviews">Read Customer Reviews</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Masterclass Detailing. All rights reserved.</p>
+        <nav aria-label="Footer links">
+          <a href="services/index.html">Services</a>
+          <a href="index.html#results">Results</a>
+          <a href="index.html#reviews">Reviews</a>
+          <a href="quote.html">Get a Quote</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      (() => {
+        const form = document.querySelector("#quote-form");
+        if (!form) return;
+        const status = document.querySelector("#quote-status");
+
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          if (!form.checkValidity()) {
+            status.textContent = "Please complete the required fields before requesting your quote.";
+            status.classList.remove("is-success");
+            form.reportValidity();
+            return;
+          }
+          status.textContent = "Thanks! Your quote request is in. We'll follow up shortly.";
+          status.classList.add("is-success");
+          form.reset();
+        });
+      })();
+    </script>
+    <script src="/site-config.js"></script>
+    <script src="/area-config.js"></script>
+    <script src="/template-config.js"></script>
+  <script src="/template-engine.js"></script>
+</body>
+</html>

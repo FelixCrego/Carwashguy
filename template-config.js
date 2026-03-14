@@ -48,12 +48,12 @@ const siteConfig = {
     fullAddressLine: pickValue(getEnv('NEXT_PUBLIC_FULL_ADDRESS_LINE'), getNested(globalSiteConfig, 'geo.fullAddressLine'), '{{FULL_ADDRESS_LINE}}')
   },
 
-  serviceAreas: Array.isArray(globalAreaConfig.serviceAreas) ? globalAreaConfig.serviceAreas : ["orlando", "North orlando", "South orlando", "East orlando", "West orlando", "orlando Metro", "orlando Downtown", "orlando Heights"],
+  serviceAreas: Array.isArray(globalAreaConfig.serviceAreas) ? globalAreaConfig.serviceAreas : ["Titusville", "Mims", "Port St. John", "Cocoa", "Rockledge", "Merritt Island", "Cocoa Beach", "Cape Canaveral", "Viera"],
 
   blogLocations: Array.isArray(globalAreaConfig.blogLocations) ? globalAreaConfig.blogLocations : [
-    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_1'), '{{BLOG_LOCATION_1}}'),
-    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_2'), '{{BLOG_LOCATION_2}}'),
-    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_3'), '{{BLOG_LOCATION_3}}')
+    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_1'), 'Titusville'),
+    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_2'), 'Cocoa'),
+    pickValue(getEnv('NEXT_PUBLIC_BLOG_LOCATION_3'), 'Merritt Island')
   ],
 
   socialMedia: {
@@ -143,6 +143,7 @@ window.TEMPLATE_CONFIG = {
 
   replacements: {
     'Masterclass Detailing': siteConfig.businessName,
+    Gabriel: 'Eliot Ferrer',
     'XP Garage': siteConfig.businessName,
     'xp garage': siteConfig.businessNameLower,
     masterclassdetailing: siteConfig.businessHandle,
@@ -153,6 +154,9 @@ window.TEMPLATE_CONFIG = {
     'Rancho Bernardo, CA': `${siteConfig.location.primaryCity}, ${siteConfig.location.primaryStateCode}`,
     'Rancho Bernardo': siteConfig.location.primaryCity,
     'rancho bernardo': siteConfig.location.primaryCityLower,
+    'GARAGE-BASED IN': 'MOBILE DETAILING IN',
+    'garage-based detailing service': 'mobile detailing service',
+    'from our local garage': 'at your home, office, or jobsite',
     California: siteConfig.location.primaryStateName,
     CA: siteConfig.location.primaryStateCode,
     'San Diego': siteConfig.location.metroArea,

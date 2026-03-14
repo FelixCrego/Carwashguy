@@ -1,25 +1,25 @@
 window.SITE_CONFIG = {
   business: {
-    name: '{{BUSINESS_NAME}}',
-    nameLower: '{{BUSINESS_NAME_LOWER}}',
-    legalName: '{{BUSINESS_LEGAL_NAME}}',
-    handle: '{{BUSINESS_HANDLE}}',
+    name: 'Eliot Ferrer Mobile Detailing',
+    nameLower: 'eliot ferrer mobile detailing',
+    legalName: 'Eliot Ferrer Mobile Detailing',
+    handle: 'eliotferrermobiledetailing',
     phoneDisplay: '(407) 777-5423',
-    phoneE164: '{{BUSINESS_PHONE_E164}}',
-    email: '{{BUSINESS_EMAIL}}',
-    tagline: '{{BUSINESS_TAGLINE}}',
-    hours: '{{BUSINESS_HOURS}}',
-    licenseText: '{{BUSINESS_LICENSE_TEXT}}',
-    trustText: '{{BUSINESS_TRUST_TEXT}}'
+    phoneE164: '+14077775423',
+    email: 'eliotferrer.detailing@gmail.com',
+    tagline: 'Reliable mobile auto detailing in Titusville, Florida.',
+    hours: 'Open 7 Days a Week: 8:00 AM - 7:00 PM',
+    licenseText: 'Locally owned and operated in Titusville, FL',
+    trustText: 'Mobile detailing with dependable scheduling and paint-safe service.'
   },
   geo: {
-    primaryLocation: 'orlando',
-    primaryLocationLower: '{{PRIMARY_CITY_LOWER}}',
-    stateName: '{{PRIMARY_STATE_NAME}}',
-    stateCode: '{{PRIMARY_STATE_CODE}}',
-    metroArea: '{{METRO_AREA}}',
-    serviceRegion: '{{SERVICE_REGION}}',
-    fullAddressLine: '{{FULL_ADDRESS_LINE}}'
+    primaryLocation: 'Titusville',
+    primaryLocationLower: 'titusville',
+    stateName: 'Florida',
+    stateCode: 'FL',
+    metroArea: 'Space Coast',
+    serviceRegion: 'North Brevard County',
+    fullAddressLine: 'Titusville, FL'
   },
   branding: {
     logoUrl: 'https://rgabkbvaibutxjttlxsy.supabase.co/storage/v1/object/public/user-uploads/ad845cc3-6575-4603-b6fe-69d998322b85/logo-1773164433383-xp-logo.jpg',
@@ -31,6 +31,6 @@ window.SITE_CONFIG = {
     secondaryColor: '#ad3f10'
   },
   research: {
-    summary: '{{RESEARCH_SUMMARY}}'
+    summary: 'Eliot Ferrer is a mobile detailer serving Titusville and nearby Space Coast communities with premium interior and exterior detailing services.'
   }
 };
